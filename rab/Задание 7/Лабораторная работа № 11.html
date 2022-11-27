@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабораторная работа №11</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="/css/style labs.css">
+  </head> 
+  <body>
+    <form action="/HTML/labrab.html">
+      <button class="nazad">
+        <img src="/img/137518.png" alt="" class="photo__nazad">
+        Назад
+      </button>
+    </form>
+    <header>
+      <div class="center__name">
+        <h1>Печатный Центр</h1>
+      </div>
+    </header>
+    <section class="section">
+      <div class="form">
+        <form name="statement">
+          <fieldset align="center">
+            <legend>Форма для создания заявки</legend>
+            Фамилия:</br><input type="text" required maxlength="20" id="lastname"><br><br>
+            Имя:</br><input type="text" required maxlength="20" id="firstname"><br><br>
+            Адрес:</br><input type="text" required maxlength="50" id="address"><br><br>
+            Телефон:</br><input type="tel" required pattern="8[0-9]{10}" maxlength="11" id="phone__number"><br><br>
+            Желаемая дата выполнения заказа:<br><input type="date" required min="2022-10-18" id="date"><br><br>
+            Категория заказа:<br><select id="category">
+              <option value="visit">Визитка</option>
+              <option value="Blank">Бланк</option>
+              <option value="flaer">Флаер</option>
+            </select><br><br><br>
+            <input type="reset" value="Сбросить">
+            <input type="submit" value="Отправить" onclick="finish()">
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <section class="section">
+      <div class="finished">
+        <span id="finish"></span>
+      </div>
+    </section>
+    <script>
+    </script>
+  </body>
+</html>

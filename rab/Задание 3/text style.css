@@ -1,0 +1,15 @@
+p {
+font-size: medium; color: brown
+}
+div {
+    border: 1px solid black; height: 100px; margin: 10px;
+}
+#sidebar {
+    align-items: flex-start; float: left;
+}
+#main {
+    align-items: flex-end; float: right; 
+}
+#footer {
+    float: inline-start;
+}

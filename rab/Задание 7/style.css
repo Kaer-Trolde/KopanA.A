@@ -1,0 +1,18 @@
+*{
+    outline: none;
+}
+.center__name{
+    display: flex;
+    justify-content: center;
+}
+.center__name > h1{
+    margin: 0 0 0 0
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0 0;
+}
+legend{
+    font-size: 16pt;
+}
